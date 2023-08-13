@@ -1,0 +1,59 @@
+// body,
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // background-image:url("../../../../public/DeskpotForm.jpg");
+  // background-color: #005a95;
+  font-family: 'Roboto', sans-serif;
+  // letter-spacing: 0.15rem;
+  // font-weight: lighter;
+  // color: white;
+  // overflow: hidden;
+  // width: 414px;
+  // height: 896px;
+  // border: 10px solid rgba(255, 255, 255, 0.00);
+  background: linear-gradient(139deg, #021522 0%, #00416c 51.56%, #09f 100%);
+  box-shadow: -80px 60px 80px 0px rgba(0, 0, 0, 0.15),
+    0px -12px 4px 0px rgba(0, 0, 0, 0.03) inset;
+}
+
+h1,
+h2,
+h3,
+p,
+// a,
+img,
+ol,
+ul,
+li,
+form,
+label,
+legend,
+footer,
+menu,
+nav,
+section
+// span
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}

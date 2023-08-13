@@ -1,0 +1,103 @@
+header {
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  background-color: #012843;
+  color: white;
+  word-spacing: 0, 5rem;
+  letter-spacing: 0, 1rem;
+
+  img {
+    height: 4em;
+    width: 4em;
+  }
+
+  h1 {
+    display: flex;
+    color: white;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  button {
+    border-bottom: 10px solid #0768a9;
+    background-color: #d3b619;
+    color: #012843;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    border: 4px solid #003253;
+    cursor: pointer;
+  }
+}
+
+a,
+span {
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+header span {
+  padding: 0 0.3rem;
+}
+header {
+  position: relative;
+  border-bottom: 5px solid #d3b619;
+}
+
+.logout {
+  display: flex;
+}
+.title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  img {
+    margin-right: 3em;
+    align-items: flex-start;
+  }
+}
+.svg-blue {
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.custom-button {
+  background-color: #d3b619;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  border: #0099ff;
+  cursor: pointer;
+}
+
+.custom-button.blue {
+  background-color: #0066cc;
+}
+
+.custom-button.long {
+  width: 300px;
+}
+
+.custom-button.large {
+  height: 60px;
+}

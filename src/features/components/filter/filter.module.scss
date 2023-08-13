@@ -1,0 +1,26 @@
+label {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+filter {
+  font-size: 6px;
+}
+
+select {
+  display: flex;
+  all: unset;
+  background-color: rgb(236, 233, 233);
+  width: 12rem;
+  height: 2rem;
+  border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
+  margin: 1rem;
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}

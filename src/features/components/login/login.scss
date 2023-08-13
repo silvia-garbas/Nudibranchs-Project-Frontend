@@ -1,0 +1,67 @@
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 76vh;
+  background-image: url("../../../../public/Buzo\ fondo\ pantalla.png");
+  background-repeat: no-repeat;
+  background-position:center;;
+  // background-size: cover;
+}
+
+.login-form {
+  height: 60%;
+  width: 30rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  .title_form {
+    color: white;
+  }
+  h2 {
+    color: white;
+    font-size:1.5rem;
+  }
+}
+.error-message {
+  color: white;
+  font-size: 1.2rem;
+}
+
+
+input {
+    background-color: rgb(236, 233, 233);
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin: 1rem;
+    border: 2px solid #012843;
+}
+
+
+input:hover {
+  background-color: #d3b619;
+}
+
+input::placeholder {
+  padding-left: 20px;
+  color: #022a44;
+}
+
+.login_button {
+  background-color: #d3b619;
+  color:#012843;
+  border-radius: 1rem;
+  padding: 10px 20px; /* Mayor padding para hacerlo más grande */
+  font-size: 16px; /* Tamaño de fuente */
+  width: 120px; /* Ancho del botón */
+  height: 40px; /* Altura del botón */
+  margin: 10px; /* Margen entre los botones */
+  border: 2px solid #012843;
+  cursor: pointer;
+}

@@ -1,0 +1,69 @@
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30em;
+    background-image: url("../../../../public/Buzo\ fondo\ pantalla.png");
+}
+
+.create-form {
+  height: 100%;
+  width: 30rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  .title_form {
+    color: white;
+    background-color: none;
+  }
+}
+
+select {
+  display: flex;
+  all: unset;
+  background-color: rgb(236, 233, 233);
+  width: 12rem;
+  height: 2rem;
+  border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
+  margin: 1rem;
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+input {
+  background-color: rgb(236, 233, 233);
+  width: 12rem;
+  height: 2rem;
+  border-radius: 0.8rem;
+  margin: 1rem;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+input:hover {
+  background-color: #d3b619;
+}
+
+input::placeholder {
+  padding-left: 20px;
+  color: #022a44;
+font-size:16px;
+}
+
+button {
+  background-color: #d3b619;
+  color: #012843;
+  border-radius: 1rem;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 120px;
+  height: 35px;
+  margin-bottom: 25px;
+  border: 2px solid #012843;
+  cursor: pointer;
+}
